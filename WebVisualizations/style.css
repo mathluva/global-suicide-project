@@ -1,0 +1,137 @@
+/* Navbar color */
+.bg-light{
+  background-color: rgb(241, 241, 245) !important;
+}
+
+/*Header font styles */
+h1{
+  font-family: Georgia, serif;
+  padding: 5px;
+  color: rgb(13, 147, 165);
+  font-weight: 500;
+}
+h2{
+  font-family: Georgia, serif;
+  padding: 5px;
+  color: rgb(13, 147, 165);
+  /* overflow: hidden; */
+}
+
+/*Font style for my name on landing page */
+.author{
+  padding-left: 5px;
+  color: rgb(13, 147, 165);
+}
+
+/*Padding for pic on summary page to align font */
+.pad{
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+/*Align headers and padding for comparisons.html page*/
+h5{
+  text-align: center;
+  margin-top: 15px;
+  color: rgb(13, 147, 165);
+}
+.pad2{
+  padding-bottom: 35px;
+}
+
+/*Background color */
+body{
+  background-color: rgb(20, 20, 85);
+}
+
+/*Paragraph formatting */
+p{
+  padding: 5px;
+  font-family: Georgia, serif;
+}
+
+/*Align table information, formatting for table */
+tr{
+  text-align: center;
+}
+table{
+  background-color: white;
+  border: 1;
+}
+/*Formatting for data html*/
+.box2{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+/*Formatting for containers, divs, rows */
+.box {
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+/*Overriding width */
+.col-md-12{
+  width: unset;
+}
+
+/*No border for images */
+.nobor{
+  margin: 0;
+  padding: 0;
+}
+
+/*Border for images */
+.tbor
+{
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-width: medium;
+  border-color: rgb(13, 147, 165);
+} 
+
+/*Comparison page borders*/
+.compbor{
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgba(158, 158, 158, 0.979);
+}
+/*Comparison page for Per Age Group border */
+.pad4 {
+  padding-bottom: 13.25%;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgba(158, 158, 158, 0.979);
+}
+
+/* Media query to adjust h2 font size as screen decreases in size */
+@media (max-width: 1000px) {
+  h2{
+    font-size: 1.8em;
+  }
+}
+
+/* Media query to adjust navbar color, body background color, and padding for bottom of screen as screen decreases to small size */
+@media (max-width: 576px) {
+  
+  .bg-light {
+  background-color: rgba(197, 226, 228, 0.692)!important;
+  }
+
+  body{
+    background-color: white;
+  }
+  .pad3{
+    padding-bottom: 10px;
+  }
+}
